@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://img.freepik.com/premium-photo/top-view-makeup-products-decorative-cosmetics-color-background_274234-15021.jpg?w=2000"
+      sizes="16x16 24x24 32x32 48x48"
+    />
+    <title>Makeup | Shop</title>
+    <style>
+      .cosmetic-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        
+      }
+
+       .card {
+        width: 200px;
+        min-height: 100px;
+        background-image:url("https://img.freepik.com/premium-photo/top-view-makeup-products-decorative-cosmetics-color-background_274234-15021.jpg?w=2000");
+        background-position:top;
+        background-size:cover;
+        border-radius: 10px;
+        justify-content: space-evenly;
+        margin: 10px; 
+      } 
+      h2{
+        text-align: center;
+        color:aliceblue;
+      }
+      h1{
+        text-align: center;
+        color:aliceblue;
+      }
+      p{
+        text-align: start;
+        color:aliceblue;
+      }
+      a{
+        color:blue;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <input id="search" onkeyup="handleSearch(this);" />
+    <div class="makeup-container" id="makeup-container">
+      <div class="card " style="width: 18rem;">
+        <div class="card-body" >
+          
+          <h5 class="card title">brand</h5>
+          
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Product:</li>
+          <li class="list-group-item">Price</li>
+          <li class="list-group-item">description</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
